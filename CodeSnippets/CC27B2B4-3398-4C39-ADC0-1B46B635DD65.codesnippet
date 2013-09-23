@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>idsumHardwareInfo *hardware = [[[GridsumHardwareInfo alloc]init]autorelease];
+    [hardware setHasAccelerometer:[self getAccelerometer]];
+    [hardware setModel:[self getModel]];
+    [hardware setManufacture:[self getManufacture]];
+    [hardware setDeviceName:[self getDeviceName]];
+    NSString * md5 = [GridsumHelper m</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CC27B2B4-3398-4C39-ADC0-1B46B635DD65</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>gridsum</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
