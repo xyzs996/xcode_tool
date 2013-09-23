@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
++(NSString*)resolution{
+    CGRect rect = [[UIScreen mainScreen] bounds];
+    CGFloat screenFloat = [[UIScreen mainScreen] scale];
+    CGSize screenSize = CGSizeMake(rect.size.width*screenFloat, rect.size.height*screenFloat);
+    NSString *resolution = [NSString stringWithFormat:@"%1.0f*%1.0f",screenSize.width,screenSize.height];
+    return resolution;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>62590383-17CD-47DB-A663-62F97244AE3B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>取得ios设备屏幕尺寸</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
